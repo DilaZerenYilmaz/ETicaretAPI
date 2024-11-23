@@ -2,7 +2,7 @@
 
 namespace ETicaretAPI.Application.Repositories
 {
-	public interface ICustomerWriteRepository : ICustomerWriteRepository<Customer>
+	public interface ICustomerWriteRepository : IWriteRepository<Customer>
 	{
 	}
 }
